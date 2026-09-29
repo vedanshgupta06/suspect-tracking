@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+python-multipart
+pillow
+numpy
+python-dotenv
+# from the sibling ML folders:
+# face_ml: torch, torchvision, facenet-pytorch
+# fir_ml:  sentence-transformers, scikit-learn

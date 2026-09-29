@@ -1,0 +1,11 @@
+condition,threshold_from,threshold,precision,recall,f1,rank1,rank5,ms_per_search
+clean,clean-tuned,0.6,0.968,0.926,0.946,0.956,0.969,0.0158
+clean,own-tuned,0.6,0.968,0.926,0.946,0.956,0.969,0.0158
+blur,clean-tuned,0.6,0.971,0.869,0.917,0.943,0.965,0.0101
+blur,own-tuned,0.62,0.99,0.847,0.913,0.943,0.965,0.0101
+lowres,clean-tuned,0.6,0.942,0.777,0.852,0.926,0.965,0.0105
+lowres,own-tuned,0.6,0.942,0.777,0.852,0.926,0.965,0.0105
+jpeg,clean-tuned,0.6,0.958,0.886,0.921,0.943,0.969,0.01
+jpeg,own-tuned,0.63,0.975,0.856,0.912,0.943,0.969,0.01
+cctv,clean-tuned,0.6,0.926,0.598,0.727,0.834,0.934,0.0079
+cctv,own-tuned,0.52,0.798,0.76,0.779,0.834,0.934,0.0079

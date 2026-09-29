@@ -1,0 +1,43 @@
+# secrets
+.env
+*.env
+!.env.example
+
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# node
+node_modules/
+dist/
+
+# ML artifacts (often huge)
+*.pt
+*.pth
+*.onnx
+*.npy
+data/
+datasets/
+checkpoints/
+
+
+# ML weights and artifacts
+*.pt
+*.pth
+*.pkl
+*.safetensors
+*.onnx
+*.npy
+face_ml/ft/
+face_ml/ft_distill/
+fir_ml/ft_sbert/
+
+# runtime data
+backend/uploads/
+*.db
+
+# secrets
+.env
+!.env.example
